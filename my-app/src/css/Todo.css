@@ -1,0 +1,57 @@
+.Main_div{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    background :linear-gradient(plum,lightblue);
+    width: max-content;
+    margin-left: 330px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    width: max-content;
+    margin-left: 135px
+}
+.input_div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: max-content;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.input_div input {
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid black;
+    margin: 10px;
+}
+.Main_div button{
+    height: 25px;
+    color:#000;
+    width: 100px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#add:hover{
+    color: green;
+    font-weight: bold
+}
+#clear:hover {
+    color: #03a9f4;
+    font-weight: bold
+ }
+ #delete:hover{
+    color: red;
+    font-weight: bold
+ }
+.listitem{
+    font-size: 20px;
+    font-weight: 500;
+}
