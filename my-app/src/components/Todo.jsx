@@ -56,7 +56,7 @@ const AddTodo = () => {
             <li key={todo.id}>
               {todo.text}
               <button id='delete' onClick={() => dispatch(removeTodo(todo.id))}>Delete</button>
-              <button className='editbtn' onClick={() => editHandler(todo)}>Edit</button>
+              <button className='editbtn' onClick={() => editHandler(todo)}>Edit in </button>
             </li>
           ))}
         </ul>
